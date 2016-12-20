@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BluetoothTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="enable_BT">开启蓝牙</string>
+    <string name="visible_BT">开启设备可见</string>
+    <string name="Search_BT">扫描已配对设备</string>
+    <string name="Search_New">扫描新设备</string>
+</resources>
