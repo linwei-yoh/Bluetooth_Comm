@@ -59,10 +59,17 @@
         <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/BT_Contented_List">
+            android:id="@+id/BT_Contented_List"/>
 
-        </ListView>
-
+        <TextView
+            android:id="@+id/EmptyMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/empty_text"
+            android:visibility="gone"/>
 
     </LinearLayout>
 </ScrollView>
